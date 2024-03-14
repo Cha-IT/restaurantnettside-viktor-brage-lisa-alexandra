@@ -1,0 +1,50 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    background-color: rgb(11, 13, 29);
+}
+
+h1 {font-size: 64px;}
+h2 {font-size: 48px;}
+h3 {font-size: 42px;}
+
+
+#topbar {
+    border: 2px red solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding: 10px;
+}
+
+.topbar-right {
+    float: right;
+}
+
+
+#topbar a {
+    text-decoration: none;
+}
+#topbar a:hover {
+    color: rgb(255, 234, 0);
+}
+
+.topTekst {
+
+    color: white;
+    text-align: center;
+}
+
+.omOssTekst {
+    color: white;
+    text-align: center;
+    line-height: 1.8;
+
+
+}
+
+#mainDish {
+    width: 400px;
+}
