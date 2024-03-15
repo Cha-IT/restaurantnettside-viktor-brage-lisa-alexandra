@@ -7,32 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    
-
-        <nav id="topbar">
-            <h3 class="topTekst">Zen Roll</h3>
-            <div class="topbar-right">
-                <a href="#meny" class="topTekst">Meny</a>
-                <a href="omoss" class="topTekst">Om oss</a>
-                <a href="#bestill" class="topTekst">Bestill</a>
+        <nav class="navbar">
+            <div class="navbar-navn">
+                <h3 class="topTekst">Zen Roll</h3>
             </div>
+            <ul class="navbar-meny">
+                <li><a href="#Meny" class="topTekst">Meny</a></li>
+                <li><a href="#" class="topTekst">Om oss</a></li>
+                <li><a href="#bestill" class="topTekst">Bestill</a></li>
+            </ul>   
         </nav>
     
         <img id="mainDish" src="./assets/sushiDish.webp" alt="Sushi dish">
 
     <section class="omOssTekst">
-        <h2> Om oss </h2>
-        <p> 
-            Velkommen til Zen Roll. Hvor hver bit av sushi er en kulinarisk opplevelse og hver munnfull tar deg med på en smaksreise til det ekstraordinære
 
-            I hjertet av Trondheim forener Sushimaster tradisjonelle japanske smaker med moderne presentasjoner, nøye utført av våre lidenskapelige kokker. Vår atmosfære er like innbydende som den er elegant, skapt for å være det ideelle stedet for intime middager, feiringer og alt imellom.
+        <img id="sushiPlate" src="./assets/sushi.webp"
+        alt="Sushi plate">
+        
+        <div><h2> Om oss </h2>
+        <p> 
+            Velkommen til Zen Roll. Hvor hver bit av sushi er en kulinarisk opplevelse og hver munnfull tar deg med på en smaksreise til det ekstraordinære <br><br>
+
+            I hjertet av Trondheim forener Sushimaster tradisjonelle japanske smaker med moderne presentasjoner, nøye utført av våre lidenskapelige kokker. Vår atmosfære er like innbydende som den er elegant, skapt for å være det ideelle stedet for intime middager, feiringer og alt imellom.<br><br>
             
-            Vi setter en ære i vår gjestfrihet, og ønsker hver gjest velkommen med varme og oppmerksomhet. Vår forpliktelse til bærekraftighet betyr at vi streber etter å velge de beste råvarene, samtidig som vi støtter lokale leverandører og tar vare på miljøet.
+            Vi setter en ære i vår gjestfrihet, og ønsker hver gjest velkommen med varme og oppmerksomhet. Vår forpliktelse til bærekraftighet betyr at vi streber etter å velge de beste råvarene, samtidig som vi støtter lokale leverandører og tar vare på miljøet.<br><br>
             
-            Kom og opplev den unike blandingen av smaker, stemning og fellesskap på Sushimaster. Vi ser frem til å dele vår lidenskap for sushi med deg.
-            
+            Kom og opplev den unike blandingen av smaker, stemning og fellesskap på Sushimaster. Vi ser frem til å dele vår lidenskap for sushi med deg.   
         </p>
+    </div>
+
+
 
     </section>
 
@@ -42,24 +47,7 @@
         
     </div>
 
-    <script type="module">
-        // Import JSON data from separate file
-        import retterData from "./MENY.json";
-    
-        // Select the existing "Meny" element from the HTML file
-        const menyElement = document.querySelector("#Meny .menyPriser");
-    
-        // Loop through the imported JSON data and create HTML elements dynamically
-        retterData.forEach(function(rett) {
-            const rettDiv = document.createElement("div");
-            rettDiv.innerHTML = `
-                <h2>${rett.Navn}</h2>
-                <p>${rett.Beskrivelse}</p>
-                <p>${rett.Pris}</p>
-                <p>${rett.Biter}</p>`;
-            menyElement.appendChild(rettDiv);
-        });
-    </script>
+    <script src="scripts.js" type="module"></script>
 
 </body>
 </html>

@@ -4,13 +4,41 @@
         "Beskrivelse":"asdsadsad",
         "Pris":"299,-",
         "Biter":"12 stk",
-        "Bilder":""
+        "Bilde":"./assets/sushi.webp"
     },
     {
     "Navn":"test2",
     "Beskrivelse":"klklklkl",
     "Pris":"299,-",
     "Biter":"8 stk",
-    "Bilder":""
+    "Bilde":"./assets/Sushiplate.jpg"
+    },
+    {
+        "Navn":"test2",
+        "Beskrivelse":"klklklkl",
+        "Pris":"299,-",
+        "Biter":"8 stk",
+        "Bilde":"./assets/Sushiplate.jpg"
+    },
+    {
+        "Navn":"test2",
+        "Beskrivelse":"klklklkl",
+        "Pris":"299,-",
+        "Biter":"8 stk",
+        "Bilde":"./assets/Sushiplate.jpg"
+    },
+    {
+        "Navn":"test2",
+        "Beskrivelse":"klklklkl",
+        "Pris":"299,-",
+        "Biter":"8 stk",
+        "Bilde":"./assets/Sushiplate.jpg"
+    },
+    {
+        "Navn":"test2",
+        "Beskrivelse":"klklklkl",
+        "Pris":"299,-",
+        "Biter":"8 stk",
+        "Bilde":"./assets/Sushiplate.jpg"
     }
 ]

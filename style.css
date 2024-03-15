@@ -10,24 +10,30 @@ h2 {font-size: 48px;}
 h3 {font-size: 42px;}
 
 
-#topbar {
+.navbar {
     border: 2px red solid;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    padding: 10px;
+    padding: 0px;
 }
 
-.topbar-right {
-    float: right;
+.navbar-navn h3 {
+    font-size: 42px;
+    margin: 10px;
 }
-
-
-#topbar a {
+.navbar-meny {
+    list-style-type: none;
+    display: flex;
+}
+.navbar-meny li {
+    margin-right: 20px;
+}
+.navbar a {
     text-decoration: none;
+    font-size: 18px;
 }
-#topbar a:hover {
+.navbar a:hover {
     color: rgb(255, 234, 0);
 }
 
@@ -39,12 +45,35 @@ h3 {font-size: 42px;}
 
 .omOssTekst {
     color: white;
-    text-align: center;
-    line-height: 1.8;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
 
+}
 
+#sushiPlate {
+    width: 400px;
+    max-width: 100%;
+    max-height:100%;
 }
 
 #mainDish {
     width: 400px;
+}
+
+.menyPriser {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.menyPriser > div {
+    background-color: rgb(16, 19, 35);
+    border: 2px rgb(39, 39, 58) solid;
+    width: calc(50% - 8px);
+    box-sizing: border-box;
 }
