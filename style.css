@@ -59,8 +59,13 @@ h3 {font-size: 42px;}
     max-height:100%;
 }
 
+.welcomePart {
+    display: flex;
+    justify-content: right;
+}
+
 #mainDish {
-    width: 400px;
+    width: 600px;
 }
 
 .menyPriser {
