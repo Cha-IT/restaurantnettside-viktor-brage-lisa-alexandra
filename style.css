@@ -12,20 +12,23 @@ h3 {font-size: 42px;}
 
 
 .navbar {
-    border: 2px red solid;
+    z-index: 10;
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
+    background-color: rgb(20, 22, 32);
     align-items: center;
-    padding: 0px;
+    padding: 0px 30px;
 }
-
 .navbar-navn h3 {
     font-size: 42px;
-    margin: 10px;
+    margin: 5px;
 }
 .navbar-meny {
     list-style-type: none;
     display: flex;
+    margin: 0;
 }
 .navbar-meny li {
     margin-right: 20px;
@@ -33,13 +36,14 @@ h3 {font-size: 42px;}
 .navbar a {
     text-decoration: none;
     font-size: 18px;
+    color: white;
+    transition: transform 0.2s ease;
 }
 .navbar a:hover {
     color: rgb(255, 234, 0);
+    transform: scale(1.05);
 }
-
 .topTekst {
-
     color: white;
     text-align: center;
 }
@@ -61,12 +65,37 @@ h3 {font-size: 42px;}
 
 .welcomePart {
     display: flex;
-    justify-content: right;
+    color: white;
+    background: rgb(20,22,32);
+    background: linear-gradient(114deg, rgba(20,22,32,1) 47%, rgba(31,34,45,1) 74%, rgba(20,22,32,1) 100%);
+}
+
+.welcomeTekstBox {
+    flex: 1;
+    padding: 20px;
+    margin-left: 7%;
+}
+
+.welcomeImg {
+    flex: 1;
+    margin-right: 7%;
+}
+
+.welcomeTekst {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.welcomeInfo {
+    font-size: 25px;
+    
 }
 
 #mainDish {
-    width: 600px;
+    max-width: 100%;
+    height: auto;
 }
+
 
 .menyPriser {
     position: relative;
@@ -81,9 +110,35 @@ h3 {font-size: 42px;}
 }
 
 .menyPriser > div {
-    background-color: rgb(16, 19, 35);
-    border: 2px rgb(39, 39, 58) solid;
+    background-color: #1f222d;
+    border: 2px rgb(27, 27, 39) solid;
     /* Baserer seg på størelsen til foreldre elementet */
     width: calc(33% - 8px);
     box-sizing: border-box;
+    padding: 50px;
+}
+
+.menyPriser > div > h2 {
+    font-size: 36px;
+}
+
+@media (max-width: 900px) {
+    .welcomeImg {
+        display: none;
+    }
+    #sushiPlate {
+        display: none;
+    }
+    .omOssTekst {
+        grid-template-columns: 1fr;
+        padding-left: 10%;
+    }
+    .omOssTekst > h2 {
+        text-align: center;
+    }
+    .infoTekst {
+        width: 80%;
+    }
+    
+    
 }

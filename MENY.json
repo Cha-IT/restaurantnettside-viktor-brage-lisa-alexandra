@@ -1,44 +1,45 @@
 [
     {
-        "Navn":"test",
-        "Beskrivelse":"asdsadsad",
-        "Pris":"299,-",
-        "Biter":"12 stk",
-        "Bilde":"./assets/sushi.webp"
+        "Navn":"6 Biter med maki sushi",
+        "Beskrivelse":"6 biter med din favoritt maki sushi",
+        "Pris":"129,-",
+        "Biter":"6 stk maki sushi",
+        "Bilde":"./assets/sushi5.png"
     },
     {
-    "Navn":"test2",
-    "Beskrivelse":"klklklkl",
-    "Pris":"299,-",
-    "Biter":"8 stk",
-    "Bilde":"./assets/Sushiplate.jpg"
+    "Navn":"Liten sushikombo",
+    "Beskrivelse":"12 biter med nydelig maki sushi for 1",
+    "Pris":"189,-",
+    "Biter":"12 stk maki sushi",
+    "Bilde":"./assets/sushi.webp"
+    },
+      {
+        "Navn":"Medium sushikombo",
+        "Beskrivelse":"Perfekt for 2! 18 biter av vår beste sushi",
+        "Pris":"229,-",
+        "Biter":"18 stk maki sushi",
+        "Bilde":"./assets/sushi3.png"
     },
     {
-        "Navn":"test2",
-        "Beskrivelse":"klklklkl",
-        "Pris":"299,-",
-        "Biter":"8 stk",
-        "Bilde":"./assets/Sushiplate.jpg"
+        "Navn":"Stor sushikombo",
+        "Beskrivelse":"Stor sushifan? da er denne store sushikomboen perfekt for deg og dine venner! her får du 15 biter med nydelig maki sushi i tilleg til 10 biter med vår nigiri sushi",
+        "Pris":"329,-",
+        "Biter":"10 stk maki sushi + 10 stk nigiri sushi",
+        "Bilde":"./assets/sushi4.png"
+    },
+  
+    {
+        "Navn":"Poké bowl",
+        "Beskrivelse":"Prøv våre nye Poké bowls, proppfulle av vidunderlige grønnsaker og vår berømte laks",
+        "Pris":"189,-",
+        "Biter":"",
+        "Bilde":"./assets/sushi1.png"
     },
     {
-        "Navn":"test2",
-        "Beskrivelse":"klklklkl",
-        "Pris":"299,-",
-        "Biter":"8 stk",
-        "Bilde":"./assets/Sushiplate.jpg"
-    },
-    {
-        "Navn":"test2",
-        "Beskrivelse":"klklklkl",
-        "Pris":"299,-",
-        "Biter":"8 stk",
-        "Bilde":"./assets/Sushiplate.jpg"
-    },
-    {
-        "Navn":"test2",
-        "Beskrivelse":"klklklkl",
-        "Pris":"299,-",
-        "Biter":"8 stk",
-        "Bilde":"./assets/Sushiplate.jpg"
+        "Navn":"Vårruller",
+        "Beskrivelse":"6 av våre digge vårruller! Perfekt ved siden av vår sushi!",
+        "Pris":"99,-",
+        "Biter":"6 stk",
+        "Bilde":"./assets/sushi2.png"
     }
 ]
