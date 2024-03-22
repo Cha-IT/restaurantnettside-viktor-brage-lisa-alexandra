@@ -139,6 +139,22 @@ h3 {font-size: 42px;}
     .infoTekst {
         width: 80%;
     }
+    .menyPriser {
+        gap: 10px;
+    }
+    .menyPriser > div {
+        width: calc(40% - 4px);
+        justify-content: center;
+        padding: auto;
+        margin: auto;
+    }
     
-    
+}
+
+@media (max-width: 700px) {
+    .menyPriser > div {
+        width: calc(50% - 4px);
+        justify-content: center;
+        padding: auto;
+        margin: auto;
 }
